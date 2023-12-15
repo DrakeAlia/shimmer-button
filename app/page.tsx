@@ -4,13 +4,13 @@ import { buttonVariants } from "../components/ui/button";
 export default function Home() {
   return (
     // Background
-    <div className="bg-black flex flex-col text-center items-center min-h-screen mx-auto py-20 max-w-3x">
+    <div className="bg-black flex flex-col text-center items-center min-h-screen mx-auto py-20 max-w-3x ">
       <h1 className="animate-bounce text-4xl text-gray-200 font-bold sm:text-6xl">
-        Buttons!
+        Buttons Styles!
       </h1>
       {/* <div className="flex flex-col sm:flex-row gap-4 mt-10 bg-yellow-400"> */}
       {/* Button Body */}
-      <div className="flex flex-col gap-4 mt-40">
+      <div className="flex flex-col gap-8 mt-20">
         <Link
           href="#"
           className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -19,7 +19,7 @@ export default function Home() {
         </Link>
         <Link
           href="#"
-          className="rounded-md animate-pulse bg-teal-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          className="rounded-md animate-pulse bg-teal-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
         >
           Button Style 2
         </Link>
