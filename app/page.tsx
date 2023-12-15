@@ -47,7 +47,6 @@ export default function Home() {
           />
         </button>
       </div>
-      {/* <div className="flex flex-col gap-4 mt-10"> */}
       {/* Shimmer Button: */}
       {/* <div className="not-prose max-w-screen relative flex flex-col items-center justify-center rounded-xl border bg-background p-8 md:p-16"> */}
       {/* <div className="absolute inset-0 h-full w-full bg-[radial-gradient(#00000055_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)] lab-bg [background-size:16px_16px]"></div>
@@ -58,13 +57,12 @@ export default function Home() {
               </div>
             </div>
             <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-              Shimmer Button
+               Button Style 6
             </span>
             <div className="insert-0 absolute h-full w-full rounded-2xl px-4 py-1.5 text-sm font-medium shadow-[inset_0_-8px_10px_#ffffff1f] transform-gpu transition-all duration-300 ease-in-out group-hover:shadow-[inset_0_-6px_10px_#ffffff3f] group-active:shadow-[inset_0_-10px_10px_#ffffff3f]"></div>
             <div className="absolute -z-20 [background:var(--bg)] [border-radius:var(--radius)] [inset:var(--cut)]"></div>
           </button>
         </div> */}
-      {/* </div> */}
     </div>
   );
 }
