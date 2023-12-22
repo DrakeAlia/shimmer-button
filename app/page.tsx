@@ -4,7 +4,7 @@ import { buttonVariants } from "../components/ui/button";
 export default function Home() {
   return (
     // Background
-    <div className="bg-black flex flex-col text-center items-center min-h-screen mx-auto py-20 max-w-3x ">
+    <div className="bg-black flex flex-col text-center items-center min-h-screen mx-auto py-20 max-w-3x">
       <h1 className="animate-bounce text-4xl text-gray-200 font-bold sm:text-6xl">
         Buttons Styles!
       </h1>
