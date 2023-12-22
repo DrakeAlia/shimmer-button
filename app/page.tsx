@@ -37,9 +37,12 @@ export default function Home() {
         {/* Button */}
         <button className="relative overflow-hidden rounded-lg px-20 py-6">
           {/* Button Body */}
-          <span className="absolute inset-px z-10 flex items-center justify-center rounded-lg bg-black bg-gradient-to-t from-neutral-800 text-neutral-300">
+          <Link
+            href="#"
+            className="absolute inset-px z-10 flex items-center justify-center rounded-lg bg-black bg-gradient-to-t from-neutral-800 text-neutral-300"
+          >
             Button Style 5
-          </span>
+          </Link>
           {/* Animated Border */}
           <span
             aria-hidden
